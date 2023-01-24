@@ -21,15 +21,15 @@ Primeiro, vamos analisar todo o código que vocês estão recebendo.
 
 Você **não precisa responder às questões abaixo dentro de seu projeto**, mas é importante que leia o projeto e reflita sobre os questionamentos antes de prosseguir.
 
-- Observe o `App.js`, o que você consegue visualizar que já conhece? 
-- Entende o `<GlobalStyles/>`?
+- Observe o `App.js`, o que você consegue visualizar que já conhece? Os componentes: Header, MainPage e Footer. As estilizações: GlobalStyles, Container.
+- Entende o `<GlobalStyles/>`? Sim, ele zera o que eu quiser, no caso: padding, margim e box-sizing.
 - Analize os componentes dentro do App.js, quantos e quais componentes estão sendo chamados aqui?
 
-- Agora analize o `JSX` de cada um desses componentes.
-- Você vai perceber que o componente `MainPage` é o componente principal do projeto. É lá onde está armazenado os componentes `NameForm` e `ConfirmationForm`. 
-- Foi criada uma lógica de renderização na linha 30 do componente `MainPage` que vai ser usada por você nos próximos exercícios. Você não precisa entender 100% como ela funciona por enquanto nem fazer nada para que ela funcione.
-- Agora analize o componente `NameForm`. Ele é uma versão componentizada do exercício da aula ao vivo. Perceba que, agora, ele precisa receber `props` para funcionar corretamente.
-- O componente `ConfirmationForm` está incompleto. Seu trabalho será criar esse componente e administrar o controle dos inputs que serão pedidos a seguir.
+- Agora analize o `JSX` de cada um desses componentes. Três componentes: Header, MainPage e Footer.
+- Você vai perceber que o componente `MainPage` é o componente principal do projeto. É lá onde está armazenado os componentes `NameForm` e `ConfirmationForm`. ok
+- Foi criada uma lógica de renderização na linha 30 do componente `MainPage` que vai ser usada por você nos próximos exercícios. Você não precisa entender 100% como ela funciona por enquanto nem fazer nada para que ela funcione. ok
+- Agora analize o componente `NameForm`. Ele é uma versão componentizada do exercício da aula ao vivo. Perceba que, agora, ele precisa receber `props` para funcionar corretamente. ok
+- O componente `ConfirmationForm` está incompleto. Seu trabalho será criar esse componente e administrar o controle dos inputs que serão pedidos a seguir. ok
 
 
 # Exercício 2
